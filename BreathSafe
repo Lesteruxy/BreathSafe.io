@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreathSafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .feature-section {
+            margin-bottom: 20px;
+        }
+
+        .feature-section h2 {
+            color: #007BFF;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="BreathSafe Logo">
+        <h1>BreathSafe</h1>
+    </header>
+
+    <main>
+        <section class="feature-section">
+            <h2>About BreathSafe</h2>
+            <p>BreathSafe is an innovative air quality monitoring device designed to detect hazardous gases, monitor air quality, temperature, and humidity in real time. With IoT integration and AI predictive analysis, BreathSafe ensures a healthier and safer environment.</p>
+        </section>
+
+        <section class="feature-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Real-time monitoring of air quality, temperature, and humidity.</li>
+                <li>Early detection of hazardous gases.</li>
+                <li>AI-powered predictive analysis for risk management.</li>
+                <li>IoT-enabled integration for smart device control.</li>
+                <li>Mobile app for remote access and monitoring.</li>
+            </ul>
+        </section>
+
+        <section class="feature-section">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <a href="mailto:contact@breathsafe.com">contact@breathsafe.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 BreathSafe. All Rights Reserved.
+    </footer>
+</body>
+</html>
